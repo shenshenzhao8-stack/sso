@@ -1,0 +1,93 @@
+{
+  "dev": {
+    "proxy": "http://192.168.3.121:5600",
+    "baseUrl": "http://localhost",
+    "item": [
+      {
+        "url": ":8080/sso",
+        "key": "sso",
+        "name": "认证中心"
+      },
+      {
+        "url": ":8083/cms",
+        "key": "Secret-CMS",
+        "name": "安全培训管理系统"
+      },
+      {
+        "url": ":8082/human-resources",
+        "key": "HR-CMS",
+        "name": "人力资源管理系统"
+      },
+      {
+        "url": ":8081/personal-center",
+        "key": "UserCenter-CMS",
+        "name": "用户管理系统"
+      },
+      {
+        "url": ":8084/asset-management",
+        "key": "Asset-CMS",
+        "name": "资产管理系统"
+      }
+    ]
+  },
+  "test": {
+    "baseUrl": "https://local-hub.ydtaap.com",
+    "item": [
+      {
+        "url": "/sso",
+        "key": "sso",
+        "name": "认证中心"
+      },
+      {
+        "url": "/cms",
+        "key": "Secret-CMS",
+        "name": "安全培训管理系统"
+      },
+      {
+        "url": "/human-resources",
+        "key": "HR-CMS",
+        "name": "人力资源管理系统"
+      },
+      {
+        "url": "/personal-center",
+        "key": "UserCenter-CMS",
+        "name": "用户管理系统"
+      },
+      {
+        "url": "/asset-management",
+        "key": "Asset-CMS",
+        "name": "资产管理系统"
+      }
+    ]
+  },
+  "pro": {
+    "baseUrl": "https://hub.ydtaap.com",
+    "item": [
+      {
+        "url": "/sso",
+        "key": "sso",
+        "name": "认证中心"
+      },
+      {
+        "url": "/cms",
+        "key": "Secret-CMS",
+        "name": "安全培训管理系统"
+      },
+      {
+        "url": "/human-resources",
+        "key": "HR-CMS",
+        "name": "人力资源管理系统"
+      },
+      {
+        "url": "/personal-center",
+        "key": "UserCenter-CMS",
+        "name": "用户管理系统"
+      },
+      {
+        "url": "/asset-management",
+        "key": "Asset-CMS",
+        "name": "资产管理系统"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@ff/utils",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "storybook": "storybook dev",
+    "build-storybook": "storybook build",
+    "clear": "rm -fr node_modules"
+  },
+  "type": "module",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-interactions": "^8.6.12",
+    "@storybook/blocks": "^8.6.12",
+    "@storybook/html": "^8.6.12",
+    "@storybook/html-vite": "^8.6.12",
+    "@storybook/test": "^8.6.12",
+    "storybook": "^8.6.12",
+    "typescript": "~5.6.3"
+  }
+}

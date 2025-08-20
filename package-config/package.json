@@ -1,0 +1,19 @@
+{
+  "name": "@ff/config",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rm -fr dist && tsc",
+    "start": "tsc --watch",
+    "clear": "rm -fr node_modules && rm -fr dist",
+    "prepublishOnly": "npm run build"
+  },
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "~5.6.3"
+  }
+}

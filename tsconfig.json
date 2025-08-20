@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/main/tsconfig.json"
+    },
+    {
+      "path": "./packages/cms/tsconfig.json"
+    },
+    {
+      "path": "./packages/personal-center/tsconfig.json"
+    },
+    {
+      "path": "./packages/human-resources/tsconfig.json"
+    }
+  ]
+}

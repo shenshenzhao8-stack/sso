@@ -1,0 +1,50 @@
+{
+  "name": "frontend-fusion-hub",
+  "version": "1.2.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter \"./packages/**\" dev",
+    "type-check": "vue-tsc --build",
+    "release-static": "standard-version --release-as 1.2.0",
+    "lint": "eslint . --fix \"src/**/*.{js,ts,tsx,vue,html}\"",
+    "format": "prettier --write --loglevel warn \"src/**/*.{js,ts,json,tsx,css,less,vue,html,md}\"",
+    "style": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/",
+    "prepare": "husky install",
+    "clear": "pnpm --filter \"./packages/**\" clear && pnpm --filter \"./package-**\" clear && rm -fr node_modules && pnpm run clear:store",
+    "clear:store": "rm -fr .pnpm-store"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.12.1",
+    "npm": ">=8.19.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "dependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "child_process": "^1.0.2",
+    "commitizen": "^4.3.1",
+    "cz-git": "^1.11.0",
+    "eslint": "^9.16.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "husky": "^9.1.7",
+    "lerna": "^8.2.1",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.4.2",
+    "stylelint": "^16.11.0",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-order": "^6.0.4",
+    "typescript": "~5.6.3"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "postcss-less": "^6.0.0"
+  }
+}

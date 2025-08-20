@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "name": "cms",
+      "path": "packages/cms",
+    },
+    {
+      "name": "human-resources",
+      "path": "packages/human-resources",
+    },
+    {
+      "name": "main",
+      "path": "packages/main",
+    },
+    {
+      "name": "personal-center",
+      "path": "packages/personal-center",
+    }
+  ],
+}
